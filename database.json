@@ -1,32 +1,90 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Luke Skywalker",
-            "address": "976 Tatooine Dr."
-        },
-         {
-            "id": 2,
-            "name": "Padmé Amidala",
-            "address": "1211 Naboo Lane"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 1,
+      "image": "/images/shutterstock_120018709-600x400.jpg.optimal.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Brutus",
+      "breed": "GreatDane",
+      "customerId": 1,
+      "locationId": 1,
+      "image": "/images/GreatDaneMINARD.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull",
+      "customerId": 2,
+      "locationId": 2,
+      "image": "/images/Red-Nose-Pitbull-sitting-on-grass.jpg"
+    },
+    {
+      "name": "Truffle",
+      "breed": "Cocker Spaniel x King Charles Cavelier",
+      "locationId": 1,
+      "customerId": 3,
+      "id": 4,
+      "image": "/images/IMG_3019.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "address": "976 Tatooine Dr.",
+      "email": "luke@skywalker.com"
+    },
+    {
+      "id": 2,
+      "name": "Padmé Amidala",
+      "address": "1211 Naboo Lane",
+      "email": "padme@amidala.com"
+    },
+    {
+      "email": "rushay@hays.com",
+      "name": "Rushay Hays",
+      "address": "Powder Springs Rd",
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nurse Goodheart",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dr. Doolitle",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Dr. Cobra-Bubbles",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "VetTech Johnny",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
