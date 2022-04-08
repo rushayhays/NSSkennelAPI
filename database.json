@@ -62,7 +62,8 @@
     {
       "id": 2,
       "name": "Dr. Doolitle",
-      "locationId": 1
+      "locationId": 1,
+      "location": "Nashville East"
     },
     {
       "id": 3,
@@ -78,7 +79,7 @@
   "locations": [
     {
       "id": 1,
-      "name": "Nashville North",
+      "name": "Nashville East",
       "address": "8422 Johnson Pike"
     },
     {
